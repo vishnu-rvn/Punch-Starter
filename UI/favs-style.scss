@@ -1,0 +1,121 @@
+$link-hover-color: #00a4c6;
+$link-color: black;
+
+.fav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px 0 50px 0;
+}
+.color-wrapper {
+    width: 23%;
+    a{
+        text-decoration: none;
+        color: $link-color;
+        p{
+            margin-top: 10px;
+        }
+    }
+    a:hover{
+        text-decoration: underline;
+        color: $link-hover-color;
+        transition: 0.1s;
+    }
+    .color {
+        height: 200px;
+        background-color: #ff6100;
+    }
+}
+.quote{
+    font-family: 'Homemade Apple', cursive;
+    font-size: 2em;
+    text-align: center;
+    margin: 70px 0 70px 0;
+    a{
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 0.5em;
+        text-decoration: none;
+        color: $link-color;
+    }
+    a:hover{
+        text-decoration: underline;
+
+    }
+}
+.footer{
+    h4{
+        margin-bottom: 10px;
+    }
+    a{
+        display: block;
+        text-decoration: none;
+        color: $link-color;
+    }
+    a:hover{
+        text-decoration: underline;
+        color: $link-hover-color;
+    }
+}
+.drop-down{
+    select{
+        padding: 10px;
+        background-color: white;
+        cursor: pointer;
+        outline: none;
+    }
+}
+.subscribe{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    form{
+        width: 100%;
+        text-align: center;
+    }
+    input{
+        padding: 10px;
+    }
+    input[type='text']{
+        width: 30%;
+        margin: 20px 0 50px 0;
+    }
+    input[type='submit']{
+        margin: 20px 0 50px 0;
+        color: white;
+        background-color: black;
+        border: 0;
+    }
+    input[type='submit']:hover{
+        background-color: #3b3b3b;
+        transition: 0.3s;
+        cursor: pointer;
+    }
+    h2{
+        margin: 30px 0 20px 0;
+        font-size: 2.5em;
+        font-weight: 200;
+    }
+    h3{
+        margin: 10px 0 20px 0;
+        font-weight: 200;
+    }
+}
+.nav2{
+    ul{
+        display: flex;
+        flex-direction: row;
+        li{
+            display: block;
+            line-height: 50px;
+            margin-right: 20px;
+            a{
+                text-decoration: none;
+                color: $link-color;
+            }
+            a:hover{
+                text-decoration: underline;
+                color: $link-hover-color;
+            }
+        }
+    }
+}

@@ -1,0 +1,119 @@
+.fav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 10px 0 50px 0;
+}
+
+.color-wrapper {
+  width: 23%;
+}
+.color-wrapper a {
+  text-decoration: none;
+  color: black;
+}
+.color-wrapper a p {
+  margin-top: 10px;
+}
+.color-wrapper a:hover {
+  text-decoration: underline;
+  color: #00a4c6;
+  transition: 0.1s;
+}
+.color-wrapper .color {
+  height: 200px;
+  background-color: #ff6100;
+}
+
+.quote {
+  font-family: "Homemade Apple", cursive;
+  font-size: 2em;
+  text-align: center;
+  margin: 70px 0 70px 0;
+}
+.quote a {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 0.5em;
+  text-decoration: none;
+  color: black;
+}
+.quote a:hover {
+  text-decoration: underline;
+}
+
+.footer h4 {
+  margin-bottom: 10px;
+}
+.footer a {
+  display: block;
+  text-decoration: none;
+  color: black;
+}
+.footer a:hover {
+  text-decoration: underline;
+  color: #00a4c6;
+}
+
+.drop-down select {
+  padding: 10px;
+  background-color: white;
+  cursor: pointer;
+  outline: none;
+}
+
+.subscribe {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.subscribe form {
+  width: 100%;
+  text-align: center;
+}
+.subscribe input {
+  padding: 10px;
+}
+.subscribe input[type=text] {
+  width: 30%;
+  margin: 20px 0 50px 0;
+}
+.subscribe input[type=submit] {
+  margin: 20px 0 50px 0;
+  color: white;
+  background-color: black;
+  border: 0;
+}
+.subscribe input[type=submit]:hover {
+  background-color: #3b3b3b;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.subscribe h2 {
+  margin: 30px 0 20px 0;
+  font-size: 2.5em;
+  font-weight: 200;
+}
+.subscribe h3 {
+  margin: 10px 0 20px 0;
+  font-weight: 200;
+}
+
+.nav2 ul {
+  display: flex;
+  flex-direction: row;
+}
+.nav2 ul li {
+  display: block;
+  line-height: 50px;
+  margin-right: 20px;
+}
+.nav2 ul li a {
+  text-decoration: none;
+  color: black;
+}
+.nav2 ul li a:hover {
+  text-decoration: underline;
+  color: #00a4c6;
+}
+
+/*# sourceMappingURL=favs-style.css.map */

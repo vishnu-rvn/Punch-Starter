@@ -1,0 +1,64 @@
+.button {
+  font-size: 1.3em;
+  background-color: white;
+  border: 0 solid white;
+  cursor: pointer;
+  padding: 10px 0 10px 0;
+  margin-right: 20px;
+  outline: none;
+}
+
+#art-btn, #design-btn, #game-btn, #music-btn {
+  color: gray;
+}
+
+.button:hover {
+  color: black;
+}
+
+.tab {
+  display: none;
+  margin: 40px 0 60px 0;
+}
+
+.grid-container {
+  margin-top: 20px;
+  display: inline-grid;
+  grid-template-areas: "content-1" "content-2";
+  grid-template-columns: 620px 620px;
+  grid-row: auto;
+  grid-column-gap: 40px;
+  width: 100%;
+}
+.grid-container .grid-1 {
+  grid-area: content-1;
+}
+.grid-container .grid-2 {
+  grid-area: content-2;
+}
+
+#color1 {
+  background-color: blue;
+  height: 600px;
+  margin-top: 5px;
+}
+
+#color2 {
+  background-color: #00ff03;
+  height: 600px;
+  margin-top: 5px;
+}
+
+#color3 {
+  background-color: #00d9ff;
+  height: 600px;
+  margin-top: 5px;
+}
+
+#color4 {
+  background-color: #ff005e;
+  height: 600px;
+  margin-top: 5px;
+}
+
+/*# sourceMappingURL=projects-style.css.map */

@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="projects-style.css">
+    <link rel="stylesheet" href="favs-style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Merienda+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Homemade+Apple" rel="stylesheet">
+    <title>PunchStarter</title>
+</head>
+<body>
+    <header class="header">
+        <div id="search" class="search-bar" style="display: none;">
+            <form action="#">
+                <input type="text" placeholder="Search items">
+                <a href="">close</a>
+            </form>
+        </div>
+        <nav class="nav" id="nav-bar">
+            <ul class="nav-ul">
+                <li class="nav-float-left"><a href="#">Explore</a></li>
+                <li class="nav-float-left" style="margin-right: 625px;"><a href="#">Start a Project</a></li>
+                <li class="logo"><a href="#"></a>Punch-Starter</li>
+                <li class="nav-float-right"><a href="login.html">Sign In</a></li>
+                <li class="nav-float-right"><a href="#" onclick="toggleSearch()">Search</a></li>
+            </ul>
+        </nav>
+        <div id="info-div">
+            <div class="container flex-box">
+                <div class="header-info bordered-content" style="padding-left: 0">
+                    <p>June 1, 2018</p>
+                    <p>Bringing creative projects into life.</p>
+                </div>
+                <div class="header-info bordered-content">
+                    <p>Total Backers</p>
+                    <p>102020</p>
+                </div>
+                <div class="header-info bordered-content">
+                    <p>Funded Projects</p>
+                    <p>140203</p>
+                </div>
+                <div class="header-info">
+                    <p>Live Projects</p>
+                    <p>458</p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container2">
+        <div class="container">
+            <div class="tab-container">
+                <button id="design-btn" class="button" onclick="changeTab('design-tech', 'design-btn')">
+                    Design & Tech
+                </button>
+                <button id="art-btn" class="button" onclick="changeTab('arts', 'art-btn')">Arts</button>
+                <button id="game-btn" class="button" onclick="changeTab('games', 'game-btn')">Games</button>
+                <button id="music-btn" class="button" onclick="changeTab('music', 'music-btn')">Music</button>
+            </div>
+            <h2 id="subject" style="margin-bottom: 10px">Design and Technology</h2>
+            <h4>FEATURED CONTENT</h4>
+            <div class="tab" id="design-tech">
+                <div class="flex-container">
+                    <div class="box1">
+                        <div id="color1">
+                        </div>
+                    </div>
+                    <div class="box1">
+                        <button id="note-worthy-btn" class="button small-button">New & Noteworthy</button>
+                        <button id="popular-btn" class="button small-button">Popular</button>
+                        <div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab" id="arts">
+                <div class="flex-container">
+                    <div class="box1">
+                        <div id="color2">
+                        </div>
+                    </div>
+                    <div class="box1">
+                        <button id="note-worthy-btn" class="button small-button">New & Noteworthy</button>
+                        <button id="popular-btn" class="button small-button">Popular</button>
+                    </div>
+                </div>
+            </div>
+            <div class="tab" id="games">
+                <div class="flex-container">
+                    <div class="box1">
+                        <div id="color3">
+                        </div>
+                    </div>
+                    <div class="box1">
+                        <button id="note-worthy-btn" class="button small-button">New & Noteworthy</button>
+                        <button id="popular-btn" class="button small-button">Popular</button>
+                    </div>
+                </div>
+            </div>
+            <div class="tab" id="music">
+                <div class="flex-container">
+                    <div class="box1">
+                        <div id="color4">
+                        </div>
+                    </div>
+                    <div class="box1">
+                        <button id="note-worthy-btn" class="button small-button">New & Noteworthy</button>
+                        <button id="popular-btn" class="button small-button">Popular</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="container2">
+        <div class="container">
+            <div>
+                <h2>Favourites</h2>
+                <a href="">VIEW ALL</a>
+            </div>
+            <div class="fav-container">
+                <div class="color-wrapper">
+                    <a href="">
+                        <div class="color"></div>
+                        <div>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut
+                                labore et dolore magna aliqua.
+                            </p>
+                        </div>
+                    </a>
+                </div>
+                <div class="color-wrapper">
+                    <a href="">
+                        <div class="color"></div>
+                        <div>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut
+                                labore et dolore magna aliqua.
+                            </p>
+                        </div>
+                    </a>
+                </div>
+                <div class="color-wrapper">
+                    <a href="">
+                        <div class="color"></div>
+                        <div>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut
+                                labore et dolore magna aliqua.
+                            </p>
+                        </div>
+                    </a>
+                </div>
+                <div class="color-wrapper">
+                    <a href="">
+                        <div class="color"></div>
+                        <div>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut
+                                labore et dolore magna aliqua.
+                            </p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container2">
+        <div class="container">
+            <div class="quote">
+                <h1>"Lorem ipsum dolor sit amet, consectetur adipiscing elit"</h1>
+                <a href="">READ MORE</a>
+            </div>
+        </div>
+    </div>
+    <div class="container2">
+        <div class="container subscribe">
+            <h2>Subscribe to our newsletter</h2>
+            <h3>Sign up for Projects We Love to receive a weekly mix of noteworthy projects, handpicked by our
+                team.</h3>
+            <form action="">
+                <input type="text" title="email" placeholder="Enter email address">
+                <input type="submit" value="Subscribe Now">
+            </form>
+        </div>
+    </div>
+    <div class="container2" style="margin-top: 0;">
+        <div class="container nav2">
+            <ul>
+                <li><a href="#">Design & Tech</a></li>
+                <li><a href="#">Arts</a></li>
+                <li><a href="#">Games</a></li>
+                <li><a href="#">Music</a></li>
+            </ul>
+        </div>
+    </div>
+    <footer class="container">
+        <div class="container2">
+            <div class="fav-container footer">
+                <div>
+                    <h4>ABOUT</h4>
+                    <a href="#">About Us</a>
+                    <a href="#">Our Charter</a>
+                    <a href="#">Stats</a>
+                    <a href="#">Press</a>
+                    <a href="#">Jobs</a>
+                </div>
+                <div>
+                    <h4>SUPPORT</h4>
+                    <a href="#">Help Center</a>
+                    <a href="#">Rules</a>
+                    <a href="#">Creator Handbook</a>
+                    <a href="#">Campus</a>
+                    <a href="#">Patrons</a>
+                </div>
+                <div>
+                    <h4>HELLO</h4>
+                    <a href="#">Blog</a>
+                    <a href="#">Engineering Blog</a>
+                    <a href="#">Newsletter</a>
+                </div>
+                <div>
+                    <h4>MORE</h4>
+                    <a href="#">Drip</a>
+                    <a href="#">Live</a>
+                    <a href="#">The Creative Independent</a>
+                </div>
+            </div>
+            <div class="fav-container">
+                <div>
+                    Logo
+                </div>
+                <div class="drop-down">
+                    <form action="#">
+                        <select name="" id="" title="language">
+                            <option value="English">English</option>
+                            <option value="French">French</option>
+                            <option value="Spanish">Spanish</option>
+                        </select>
+                        <select name="" id="" title="currency">
+                            <option value="US Dollar">US Dollar</option>
+                            <option value="Canadian Dollar">Canadian Dollar</option>
+                            <option value="Rupee">Rupee</option>
+                        </select>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>

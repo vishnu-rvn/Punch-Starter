@@ -1,0 +1,151 @@
+{% extends 'base.html' %}
+{% block content %}
+    <div class="container2">
+        <div class="container">
+            <div class="tab-container">
+                <button id="design-btn" class="button" onclick="changeTab('design-tech', 'design-btn')">
+                    Design & Tech
+                </button>
+                <button id="art-btn" class="button" onclick="changeTab('arts', 'art-btn')">Arts</button>
+                <button id="game-btn" class="button" onclick="changeTab('games', 'game-btn')">Games</button>
+                <button id="music-btn" class="button" onclick="changeTab('music', 'music-btn')">Music</button>
+                <hr>
+            </div>
+            <div class="tab" id="design-tech">
+                <h2>Design and Technology</h2>
+                <div class="grid-container">
+                    <div class="grid-1">
+                        <h4>FEATURED CONTENT</h4>
+                        <div id="color1">
+                        </div>
+                    </div>
+                    <div class="grid-2">
+                    </div>
+                </div>
+            </div>
+            <div class="tab" id="arts">
+                <h2>Arts</h2>
+                <div class="grid-container">
+                    <div class="grid-1">
+                        <h4>FEATURED CONTENT</h4>
+                        <div id="color2">
+                        </div>
+                    </div>
+                    <div class="grid-2">
+                    </div>
+                </div>
+            </div>
+            <div class="tab" id="games">
+                <h2>Games</h2>
+                <div class="grid-container">
+                    <div class="grid-1">
+                        <h4>FEATURED CONTENT</h4>
+                        <div id="color3">
+                        </div>
+                    </div>
+                    <div class="grid-2">
+                    </div>
+                </div>
+            </div>
+            <div class="tab" id="music">
+                <h2>Music</h2>
+                <div class="grid-container">
+                    <div class="grid-1">
+                        <h4>FEATURED CONTENT</h4>
+                        <div id="color4">
+                        </div>
+                    </div>
+                    <div class="grid-2">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container2">
+        <div class="container">
+            <div>
+                <h2>Favourites</h2>
+                <a href="">VIEW ALL</a>
+            </div>
+            <div class="fav-container">
+                <div class="color-wrapper">
+                    <a href="">
+                        <div class="color"></div>
+                        <div>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut
+                                labore et dolore magna aliqua.
+                            </p>
+                        </div>
+                    </a>
+                </div>
+                <div class="color-wrapper">
+                    <a href="">
+                        <div class="color"></div>
+                        <div>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut
+                                labore et dolore magna aliqua.
+                            </p>
+                        </div>
+                    </a>
+                </div>
+                <div class="color-wrapper">
+                    <a href="">
+                        <div class="color"></div>
+                        <div>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut
+                                labore et dolore magna aliqua.
+                            </p>
+                        </div>
+                    </a>
+                </div>
+                <div class="color-wrapper">
+                    <a href="">
+                        <div class="color"></div>
+                        <div>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut
+                                labore et dolore magna aliqua.
+                            </p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container2">
+        <div class="container">
+            <div class="quote">
+                <h1>"Lorem ipsum dolor sit amet, consectetur adipiscing elit"</h1>
+                <a href="">READ MORE</a>
+            </div>
+        </div>
+    </div>
+    <div class="container2">
+        <div class="container subscribe">
+            <h2>Subscribe to our newsletter</h2>
+            <h3>Sign up for Projects We Love to receive a weekly mix of noteworthy projects, handpicked by our
+                team.</h3>
+            <form action="">
+                <input type="text" title="email" placeholder="Enter email address">
+                <input type="submit" value="Subscribe Now">
+            </form>
+        </div>
+    </div>
+    <div class="container2" style="margin-top: 0;">
+        <div class="container nav2">
+            <ul>
+                <li><a href="#">Design & Tech</a></li>
+                <li><a href="#">Arts</a></li>
+                <li><a href="#">Games</a></li>
+                <li><a href="#">Music</a></li>
+            </ul>
+        </div>
+    </div>
+{% endblock content %}

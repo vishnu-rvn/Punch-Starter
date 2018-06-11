@@ -1,0 +1,63 @@
+.button {
+  font-size: 1.3em;
+  background-color: white;
+  border: 0 solid white;
+  cursor: pointer;
+  padding: 0 0 10px 0;
+  margin-right: 20px;
+  outline: none;
+}
+
+.small-button {
+  font-size: 1em;
+  text-transform: uppercase;
+}
+
+#art-btn, #design-btn, #game-btn, #music-btn {
+  color: gray;
+}
+
+.button:hover {
+  color: black;
+}
+
+.tab {
+  display: none;
+  margin: 20px 0 40px 0;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.box1 {
+  flex: 1;
+  margin-right: 30px;
+}
+
+.box2 {
+  flex: 1;
+  margin-left: 30px;
+}
+
+#color1, #color2, #color3, #color4 {
+  height: 600px;
+}
+
+#color1 {
+  background-color: blue;
+}
+
+#color2 {
+  background-color: #00ff03;
+}
+
+#color3 {
+  background-color: #00d9ff;
+}
+
+#color4 {
+  background-color: #ff005e;
+}
+
+/*# sourceMappingURL=projects-style.css.map */

@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9em;
+}
+.container{
+    margin: 0 16%;
+    .tab-container{
+        margin: 10px 0 20px 0;
+    }
+}
+.container2{
+    margin: 40px 0 0 0;
+    border-bottom: 0.5px solid black;
+}
+.bordered-content{
+    border-right: 0.5px solid black;
+}
+.header{
+    height: 160px;
+}
+.search-bar{
+    width: 100%;
+    input{
+        width: 92%;
+        height: 66px;
+        padding: 0 40px 0 40px;
+        font-size: 1.3em;
+        border: none;
+        outline: none;
+    }
+}
+.nav{
+    height: 66px;
+    margin: 0 20px;
+    .nav-ul li{
+        line-height: 66px;
+        display: inline-block;
+        a{
+            text-decoration: none;
+            color: black;
+        }
+    }
+    .nav-float-left{
+        margin-left: 20px;
+        float: left;
+    }
+    .nav-float-right{
+        margin-right: 20px;
+        float: right;
+    }
+    .logo{
+        font-family: 'Merienda One', cursive;
+        font-size: 2em;
+        font-style: italic;
+        font-weight: bold;
+        color: darkslateblue;
+    }
+}
+#info-div{
+    border-top: 0.5px solid black;
+    border-bottom: 0.5px solid black;
+    .flex-box{
+        display: flex;
+        height: 90px;
+        flex-direction: row;
+        justify-content: center;
+        .header-info{
+            padding: 15px 40px;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            p:nth-child(1){
+                color: gray;
+                text-transform: uppercase;
+            }
+            p:nth-child(2){
+                font-weight: 500;
+            }
+        }
+    }
+}
