@@ -3,9 +3,13 @@
     background-color: white;
     border: 0 solid white;
     cursor: pointer;
-    padding: 10px 0 10px 0;
+    padding: 0 0 10px 0;
     margin-right: 20px;
     outline: none;
+}
+.small-button{
+    font-size: 1em;
+    text-transform: uppercase;
 }
 #art-btn, #design-btn, #game-btn, #music-btn{
     color: gray;
@@ -15,40 +19,31 @@
 }
 .tab{
     display: none;
-    margin: 40px 0 60px 0;
+    margin: 20px 0 40px 0;
 }
-.grid-container{
-    margin-top: 20px;
-    display: inline-grid;
-    grid-template-areas: 'content-1' 'content-2';
-    grid-template-columns: 620px 620px;
-    grid-row: auto;
-    grid-column-gap: 40px;
-    width: 100%;
-    .grid-1{
-        grid-area: content-1;
-    }
-    .grid-2{
-        grid-area: content-2;
-    }
+.flex-container{
+    display: flex;
 }
-#color1 {
-    background-color: blue;
+.box1 {
+    flex: 1;
+    margin-right: 35.61px;
+}
+.box2{
+    flex: 1;
+    margin-left: 35.61px;
+}
+#color1, #color2, #color3, #color4 {
     height: 600px;
-    margin-top: 5px;
+}
+#color1{
+    background-color: blue;
 }
 #color2 {
     background-color: #00ff03;
-    height: 600px;
-    margin-top: 5px;
 }
 #color3 {
     background-color: #00d9ff;
-    height: 600px;
-    margin-top: 5px;
 }
 #color4 {
     background-color: #ff005e;
-    height: 600px;
-    margin-top: 5px;
 }

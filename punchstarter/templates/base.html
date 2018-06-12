@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='styles/style.css') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename='styles/favs-style.css') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename='styles/projects-style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/login.css') }}">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Merienda+One" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Homemade+Apple" rel="stylesheet">
@@ -49,8 +50,7 @@
         </div>
     </header>
     {% block content %}
-
-    {% endblock content %}
+    {% endblock %}
     <footer class="container">
         <div class="container2">
             <div class="fav-container footer">

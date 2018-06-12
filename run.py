@@ -1,11 +1,4 @@
-from flask import Flask, render_template
-
-app = Flask(__name__)
-
-
-@app.route('/')
-def hello_world():
-    return render_template("front-page.html")
+from punchstarter import app
 
 
 if __name__ == '__main__':
